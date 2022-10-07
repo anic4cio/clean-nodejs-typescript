@@ -1,4 +1,4 @@
 /*
-Class time: 10m
+Class time: 21m
 Block ## 2
 */
