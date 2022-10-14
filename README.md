@@ -1,9 +1,10 @@
 ## REST API Aplication with registration, login and survey system
-  ### Technologies that being using
+  ### Technologies being used
   * _NodeJS_
   * _Typescript_
   * _Jest_
   * _Eslint_
+  * _Husky_
   ### Principes
   * _SOLID_
   * _Clean Architecture_
