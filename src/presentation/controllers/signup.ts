@@ -22,7 +22,24 @@ export class SignUpController implements Controller {
         return badRequest(new InvalidParamError('email'))
       }
     } catch (error) {
-      return serverError()
+      console.log(error)
     }
+    return serverError()
   }
+  // handle (httpRequest: HttpRequest): HttpResponse {
+  //   try {
+  //     const requiredField = ['name', 'email', 'password', 'passwordConfirmation']
+  //     for (const field of requiredField) {
+  //       if (!httpRequest.body[field]) {
+  //         return badRequest(new MissingParamError(field))
+  //       }
+  //     }
+  //     const isValid = this.emailValidator.isValid(httpRequest.body.email)
+  //     if (!isValid) {
+  //       return badRequest(new InvalidParamError('email'))
+  //     }
+  //   } catch (error) {
+  //     return serverError()
+  //   }
+  // }
 }
